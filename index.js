@@ -1,1 +1,2 @@
-document.write(window.location.search);
+const search = window.location.search || "";
+document.documentElement.textContent = search;
